@@ -2,6 +2,7 @@ fun main(args: Array<String>) {
 /*
     val cliente = Cliente();
 
+
     print("Digite o nome: ")
     cliente.nome = readln()
 
@@ -14,10 +15,15 @@ fun main(args: Array<String>) {
     print("Digite o peso: ")
     cliente.peso = readln().toDouble()
 
+    print("Digite a quantidade: ")
+    cliente.quantidadeProd = readln().toInt()
+
     println(cliente.nome)
     println(cliente.idade)
     println(cliente.altura)
     println(cliente.peso)
+    println(cliente.quantidadeProd)
+    println(cliente.qtdeProd())
 
 
     val aviao = Aviao();
@@ -63,19 +69,22 @@ fun main(args: Array<String>) {
     println(funcionario.idade)
     println(funcionario.peso)
     println(funcionario.altura)
-
+*/
     val patinete = Patinete();
 
     patinete.marca = "Multilaser";
     patinete.cor = "Black";
     patinete.quantidade = 10;
     patinete.modelo = "456-Ms";
+    patinete.velocidade = 30;
 
     println(patinete.marca)
     println(patinete.cor)
     println(patinete.quantidade)
     println(patinete.modelo)
-
+    println(patinete.velocidade)
+    println(patinete.Pat())
+/*
     val contaBancaria = ContaBancaria();
 
     contaBancaria.titular = "Josiane";
@@ -89,7 +98,7 @@ fun main(args: Array<String>) {
     println(contaBancaria.saldo)
 
 
- */
+
     val paciente = Paciente(
         "Isaque",
         22,
@@ -99,6 +108,10 @@ fun main(args: Array<String>) {
     )
 
     println(paciente)
+    println(paciente.Conv())
+
+    println(paciente.Conv())
+    */
 
 
 
